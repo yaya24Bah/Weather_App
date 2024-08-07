@@ -1,7 +1,6 @@
 //-----------------UN EVENEMENT POUR LA RECHERCHE DE NOTRE BUTTON-----------------------------------------
 document.getElementById('searchButton').addEventListener('click', function() {
-    // Récupère la valeur de l'input pour la ville, en retirant les espaces en dé
-    but et fin
+    // Récupère la valeur de l'input pour la ville, en retirant les espaces en début et fin
     const city = document.getElementById('cityInput').value.trim();
     if (city) {
       // Si une ville est entrée, appelle la fonction getWeather avec cette ville
